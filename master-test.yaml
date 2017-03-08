@@ -3,8 +3,8 @@ zone: asia-east1-a ##Zone where your cluster will be up
 instances:
   - name: front ##Instance group name
     count: 1 ##Number of instance on that group
-    labels:##Labels that will be set on each instance
-           ##from this group inside kubernetes cluster
+    labels:  ##Labels that will be set on each instance
+             ##from this group inside kubernetes cluster
       type: front
       class: fast1
     instance_type: n1-standard-2 ##Instance type. 
