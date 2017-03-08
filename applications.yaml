@@ -16,7 +16,7 @@
         Replicas: 1
         ServerVersion: 1.2.0
     name: demo-web-server
-    src: https://github.com/kuberlab/demo-web-server/Chart
+    src: https://github.com/kuberlab/demo-web-server/tree/master/Chart
     version: '*'
   name: kuberlab
 - charts:
@@ -37,6 +37,6 @@
         Replicas: 2
         ServerVersion: 1.1.2
     name: demo-web-server
-    src: https://github.com/kuberlab/demo-web-server/Chart/
+    src: https://github.com/kuberlab/demo-web-server/tree/master/Chart
     version: 2.0.1
   name: dem-w-s
