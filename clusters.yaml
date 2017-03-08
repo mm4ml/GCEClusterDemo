@@ -1,5 +1,5 @@
-- Account: inspired-oath-160902 ##Accout name from your connected Service Accounts 
-                                ##that will be use to connect to cloud provider. 
-Name: master-test ##Cluster name
-Provider: google ##Name of provicer
-Src: master-test.yaml ##Cluster resource description
+- Account: inspired-oath-160902
+  MasterIP: ""
+  Name: test-cluster
+  Provider: google
+  Src: master-test.yaml
