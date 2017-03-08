@@ -1,9 +1,5 @@
-- Account: testcluster-158807 ##Accout name that will be use to connect to cloud provider
-  Name: master-test ##Cluster name
-  Provider: google ##Name of provicer
-  Src: master-test.yaml ##Cluster resource description
 - Account: testcluster-158807
+  MasterIP: ""
   Name: test1
   Provider: google
   Src: test1.yaml
-  Status: Undefined
