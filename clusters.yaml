@@ -1,4 +1,1 @@
-- Account: aws.json
-  Name: db-tests
-  Provider: amazon
-  Src: master.yaml
+[]
