@@ -1,0 +1,28 @@
+name: "master-test" ##Cluster Name
+zone: us-west1 ##Zone where your cluster will be up
+instances:
+  - name: front ##Instance group name
+    count: 1 ##Number of instance on that group
+    labels:  ##Labels that will be set on each instance
+             ##from this group inside kubernetes cluster
+      type: front
+      class: fast1
+    instance_type: n1-standard-2 ##Instance type. 
+                                 ##See documentation of your cluster provider.
+    volumes: ##Volumes that will be attached to the instances.
+             ##See documentation of your cluster provider.
+      - boot: true
+        autoDelete: true
+        initializeParams:
+          diskSizeGb: "16"
+  - name: db
+    count: 1
+    labels:
+      type: db
+      test: ok3
+    instance_type: n1-standard-2
+    volumes:
+      - boot: true
+        autoDelete: true
+        initializeParams:
+          diskSizeGb: "32"
