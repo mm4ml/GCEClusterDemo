@@ -1,5 +1,5 @@
 name: "master-test" ##Cluster Name
-zone: us-west1 ##Zone where your cluster will be up
+zone: asia-east1-a ##Zone where your cluster will be up
 instances:
   - name: front ##Instance group name
     count: 1 ##Number of instance on that group
