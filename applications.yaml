@@ -5,7 +5,7 @@
       #src: https://dev.kuberlab.io/kuberlab/demo-web-server
       version: "*"
       clusters:
-        - master-test
+        - test-cluster
       configuration:
         values:
           Name: demo
