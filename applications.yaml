@@ -1,4 +1,4 @@
-- charts:
+- charts:  
   - clusters:
     - master-test
     configuration:
